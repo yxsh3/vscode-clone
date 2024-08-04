@@ -1,0 +1,110 @@
+body{
+    background-color: #0e0e0e;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.toplink{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.topelements{
+    padding: 12px 10px;
+    color: #9d9d9d;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.searchArea{
+    padding: 10px;
+}
+
+button{
+    padding: 8px 16px;
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #0078d4;
+    cursor: pointer;
+}
+
+input{
+    padding: 8px 16px;
+    background: transparent;
+    border: solid 1px #9d9d9d;
+    border-radius: 4px;
+}
+
+.ataglink{
+    display: flex; 
+    justify-content: center; 
+    font-size: small; 
+    font-weight: 600; 
+    margin: 10px; 
+    color: #9d9d9d;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.windowsDownloadButton{
+    padding: 12px 24px;
+    font-size: 1.2rem;
+}
+
+a{
+    color: #4daafc;
+}
+
+.ptagcopilot{
+    font-size: 15px;
+    font-weight: 550;
+    color: #9ba3b4;
+}
+
+.copilot-secondary-value{
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 40px;
+    margin-bottom: 24px;
+}
+
+.footer{
+    margin: 50px 100px;
+}
+
+.footerIcon{
+    padding: 15px;
+}
+
+.footerlink{
+    padding: 15px;
+}
+
+.tagline{
+    color: #9d9d9d; 
+    border: 1px solid rgba(255,255,255,0.07); 
+    background-color: rgba(255,255,255,0.04); 
+    border-radius: 32px; 
+    padding: 8px 12px; 
+    width: max-content; 
+    margin-bottom: 8px;
+}
